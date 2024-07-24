@@ -1,0 +1,22 @@
+/* estilo de formulario*/
+form{
+    padding: 40px;
+    background-color: #db8547;
+    border: 5px outset #d6a684;
+    text-align: center;
+    height: 100vh;
+    
+}
+
+label{
+    background-color: #eea977;
+    padding: 7px;
+    border-radius: 10px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 8px double #e4701d;
+    margin-top: 5vh;
+}

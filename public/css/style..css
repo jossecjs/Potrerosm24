@@ -1,0 +1,75 @@
+/* 
+SELECTOR
+ propiedad: valor;
+ */
+ #coloramarillo{
+    color: yellow;
+ }
+ h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 2px;
+    background-color: chartreuse;
+ }
+ h2{
+    color: #7FE421; font-size: 35px;
+    text-align: center;
+    border: 2px;
+    background-color: darkolivegreen;
+ }
+ img{
+   margin-left: 15%;
+   border: 5px solid goldenrod;
+   padding: 2px;
+ }
+ h3{
+    color: #6DF509; font-size: 20px;
+    text-align: center;
+    border: 2px;
+    background-color: green;
+
+ }
+ h4{
+    color: #6DF509; font-size: 20px;
+    text-align: center;
+    border: 2px;
+    background-color: green;
+ }
+ h5{
+    color: #6DF509; font-size: 20px;
+    text-align: center;
+    border: 2px;
+    background-color: green;
+ }
+ p{
+    color: darkgreen; font-size: 20px;
+    border: 2px solid darkgreen;
+    background-color: limegreen;
+
+ }
+ ul{
+    color: green; font-size: 15px;
+    border: 2px solid darkolivegreen;
+    background-color: #a4fc0d;
+    margin-left: 10px;
+    width: 15%;
+
+ }
+ ol{
+    color: green; font-size: 15px;
+    border: 2px solid darkolivegreen;
+    background-color: #a4fc0d;
+    margin-left: 15px;
+    width: 55%;
+ }
+ .video{
+   margin-left: 20%;
+   margin-right: 19.10%;
+   border: 3px solid goldenrod;
+   padding: 2px;
+ }
+ a{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: forestgreen;
+ }

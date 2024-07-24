@@ -1,0 +1,33 @@
+
+body{
+    background-color: #d6a684;
+    
+}
+
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #e4701d;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #db8547;
+    font-size: 30px;
+}
+
+ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #db8547;
+}
+
+il{
+    flex-direction: column;
+    display: flex;
+    font-size: 25px;
+    color: chocolate;
+}

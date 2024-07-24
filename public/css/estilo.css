@@ -1,0 +1,193 @@
+/* ESTILOS EN COMUN*/
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.body{
+
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+    
+/* ESTILOS HEADER*/
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(../img/dinero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header div{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(248, 150, 70, 0.866);
+    background-image:linear-gradient rgba(248, 156, 70, 0.866), rgba(246, 135, 62, 0.899);
+    color: black;
+    font-size: 1.1rem;
+}
+
+.logo{
+     
+
+width: 100%;
+
+}
+
+@media (max-width: 800px) {
+    header {
+        background-position: center;
+    }
+}
+/* ESTILOS NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #eea977;
+    position: sticky;
+    top: 0;
+    border-style: double;
+    border-width: 3px;
+    border-color: chocolate;
+}
+.navbar a{
+    color: beige;
+    padding: 14px 20px;
+    text-decoration: underline;
+}
+.navbar a:hover{
+    background-color: #db8547;
+}
+
+@media (max-width:900px){
+    .navbar-nav{
+        flex-direction: column;
+        position: unset;
+    }
+    .navbar{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/* ESTILO PARTE PRINCIPAL */
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    background-color: #fab8a0;
+    text-align: center;
+}
+/* estilo main*/
+main{
+    flex-basis: 75%;
+    padding: 20px;
+    padding-left: 30px;
+    background-color: #d6a684;
+    height: auto;
+}
+
+@media (max-width:800px) {
+    .principal{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.imag img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+
+.imag img:hover{
+    transform: scale(1.04);
+}
+
+@media (max-width:800px) {
+    .imag img{
+        width: 60%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+}
+main h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #e4701d;
+    text-align: center;
+    justify-content: flex-start;
+}
+main h5{
+    text-align: center;
+}
+
+main p{
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main img {
+    width: 65%;
+    height: 50vw;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 15%;
+    border: 2px solid rgb(250, 181, 157);
+
+}
+
+
+
+
+.dos{
+    width: 65%;
+    height: 55vw;
+    object-fit: cover;
+    object-position: center;
+    text-align: center;
+}
+
+.animado{
+    width: 65%;
+    height: 40vw;
+    object-fit: cover;
+    object-position: bottom;
+    text-align: center;
+}
+
+footer{
+    
+    background-color: chocolate;
+    width: 100%;
+    height: 50px;
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e5c9b5;
+    text-align: center;
+}
